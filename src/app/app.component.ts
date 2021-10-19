@@ -119,6 +119,7 @@ export class AppComponent {
       hooks: {
         onInit: (field?: FormlyFieldConfig) => {
           console.log(field);
+          
           if (field && field.templateOptions) {
             console.log(field);
             field: {

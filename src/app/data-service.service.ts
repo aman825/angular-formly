@@ -28,7 +28,7 @@ export class DataService {
     ]);
   }
 
-  getCities(nationId: number = 0) {
+  getCities(nationId: number | null = null){
     console.log(nationId);
     return of(
       [
